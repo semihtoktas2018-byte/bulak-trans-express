@@ -1,5 +1,6 @@
 import { useReveal } from "@/hooks/use-reveal";
-import { CheckCircle2, Truck, Users, Award } from "lucide-react";
+import { CheckCircle2, Truck, Users, Award, Quote } from "lucide-react";
+import kenan from "@/assets/kenan-bulak.jpg.asset.json";
 
 const REASONS = [
   { icon: Truck, title: "Modern Filo", desc: "Yeni nesil Euro 6 TIR araçlarımızla yakıt verimli ve çevre dostu taşımacılık." },
