@@ -59,6 +59,43 @@ export function About() {
           </div>
         </div>
       </div>
+
+      <div className="max-w-7xl mx-auto mt-24 sm:mt-32">
+        <div className="text-center max-w-2xl mx-auto">
+          <div className="text-sm uppercase tracking-widest text-primary font-semibold">Kurucumuz</div>
+          <h3 className="mt-3 text-3xl sm:text-4xl font-extrabold tracking-tight">
+            Vizyonumuzun <span className="gradient-text">arkasındaki isim</span>
+          </h3>
+        </div>
+
+        <div className="mt-12 grid md:grid-cols-[auto,1fr] gap-10 items-center max-w-4xl mx-auto glass-card rounded-3xl p-8 sm:p-10">
+          <div className="relative mx-auto md:mx-0">
+            <div className="absolute -inset-2 rounded-full gradient-brand opacity-30 blur-xl" />
+            <img
+              src={kenan.url}
+              alt="Kenan Bulak - Bulak Trans Kurucusu"
+              width={220}
+              height={220}
+              loading="lazy"
+              className="relative h-44 w-44 sm:h-52 sm:w-52 rounded-full object-cover ring-4 ring-primary/20 shadow-[var(--shadow-glow)]"
+            />
+          </div>
+          <div>
+            <div className="text-2xl font-extrabold">Kenan Bulak</div>
+            <div className="mt-1 text-sm uppercase tracking-wider text-primary font-semibold">
+              Kurucu & Genel Müdür
+            </div>
+            <div className="relative mt-5 text-muted-foreground leading-relaxed">
+              <Quote className="absolute -top-2 -left-1 h-6 w-6 text-primary/30" aria-hidden />
+              <p className="pl-7">
+                "Bursa'dan başladığımız bu yolda; dürüstlük, zamanında teslimat ve müşteri memnuniyetini
+                kendimize ilke edindik. Bugün 9 ülkeye uzanan ağımızla, Türk sanayicisinin yükünü dünyaya
+                taşımanın gururunu yaşıyoruz."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
