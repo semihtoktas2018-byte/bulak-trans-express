@@ -5,6 +5,7 @@ import { Hero } from "@/components/Hero";
 import { Stats } from "@/components/Stats";
 import { Services } from "@/components/Services";
 import { Routes as RoutesSection } from "@/components/Routes";
+import { Fleet } from "@/components/Fleet";
 import { About } from "@/components/About";
 import { QuoteForm } from "@/components/QuoteForm";
 import { FAQ } from "@/components/FAQ";
@@ -41,6 +42,7 @@ function Index() {
           <Stats />
           <Services />
           <RoutesSection />
+          <Fleet />
           <About />
           <QuoteForm />
           <FAQ />

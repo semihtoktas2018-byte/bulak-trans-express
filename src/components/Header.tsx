@@ -7,6 +7,7 @@ const NAV = [
   { label: "Ana Sayfa", href: "#home" },
   { label: "Hizmetler", href: "#services" },
   { label: "Güzergahlar", href: "#routes" },
+  { label: "Filomuz", href: "#fleet" },
   { label: "Hakkımızda", href: "#about" },
   { label: "İletişim", href: "#contact" },
 ];
