@@ -42,6 +42,7 @@ function Index() {
           <Stats />
           <Services />
           <RoutesSection />
+          <Fleet />
           <About />
           <QuoteForm />
           <FAQ />
