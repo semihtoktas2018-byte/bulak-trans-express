@@ -20,7 +20,7 @@ export function About() {
           </h2>
           <p className="mt-6 text-muted-foreground text-lg leading-relaxed">
             Bulak Trans, 15 yılı aşkın süredir Bursa merkezli olarak uluslararası karayolu taşımacılığı alanında hizmet vermektedir.
-            Modern filomuz, deneyimli kadromuz ve müşteri odaklı yaklaşımımızla; Türk sanayicisinin yükünü 9 ülkeye güvenle taşıyoruz.
+            Modern filomuz, deneyimli kadromuz ve müşteri odaklı yaklaşımımızla; Türk sanayicisinin yükünü 12 ülkeye güvenle taşıyoruz.
           </p>
 
           <ul className="mt-8 space-y-3">
@@ -89,7 +89,7 @@ export function About() {
               <Quote className="absolute -top-2 -left-1 h-6 w-6 text-primary/30" aria-hidden />
               <p className="pl-7">
                 "Bursa'dan başladığımız bu yolda; dürüstlük, zamanında teslimat ve müşteri memnuniyetini
-                kendimize ilke edindik. Bugün 9 ülkeye uzanan ağımızla, Türk sanayicisinin yükünü dünyaya
+                kendimize ilke edindik. Bugün 12 ülkeye uzanan ağımızla, Türk sanayicisinin yükünü dünyaya
                 taşımanın gururunu yaşıyoruz."
               </p>
             </div>
