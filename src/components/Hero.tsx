@@ -45,7 +45,7 @@ export function Hero() {
             </a>
           </div>
         </div>
-      </div>
+      
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-xs uppercase tracking-widest text-muted-foreground hidden md:block">
         Aşağı kaydır ↓
       </div>
