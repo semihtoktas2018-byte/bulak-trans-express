@@ -1,18 +1,19 @@
 import { useReveal } from "@/hooks/use-reveal";
 import { Clock } from "lucide-react";
-
 const ROUTES = [
   { flag: "🇬🇷", name: "Yunanistan", days: "3-4 gün" },
   { flag: "🇧🇬", name: "Bulgaristan", days: "2-3 gün" },
   { flag: "🇷🇴", name: "Romanya", days: "3-4 gün" },
   { flag: "🇦🇹", name: "Avusturya", days: "4-5 gün" },
+  { flag: "🇩🇪", name: "Almanya", days: "4-5 gün" },
+  { flag: "🇷🇸", name: "Sırbistan", days: "2-3 gün" },
+  { flag: "🇭🇷", name: "Hırvatistan", days: "3-4 gün" },
   { flag: "🇦🇿", name: "Azerbaycan", days: "4-5 gün" },
   { flag: "🇬🇪", name: "Gürcistan", days: "3-4 gün" },
   { flag: "🇮🇶", name: "Irak", days: "5-6 gün" },
   { flag: "🇸🇾", name: "Suriye", days: "5-6 gün" },
   { flag: "🇮🇷", name: "İran", days: "6-7 gün" },
 ];
-
 export function Routes() {
   const ref = useReveal();
   return (
@@ -21,13 +22,12 @@ export function Routes() {
         <div className="max-w-2xl">
           <div className="text-sm uppercase tracking-widest text-primary font-semibold">Güzergahlar</div>
           <h2 className="mt-3 text-4xl sm:text-5xl font-extrabold tracking-tight">
-            9 ülkeye <span className="gradient-text">düzenli sefer</span>
+            12 ülkeye <span className="gradient-text">düzenli sefer</span>
           </h2>
           <p className="mt-4 text-muted-foreground text-lg">
             Türkiye'den Avrupa, Kafkasya ve Orta Doğu'ya kesintisiz taşımacılık.
           </p>
         </div>
-
         <div className="mt-14 grid sm:grid-cols-2 md:grid-cols-3 gap-5">
           {ROUTES.map((r) => (
             <div
