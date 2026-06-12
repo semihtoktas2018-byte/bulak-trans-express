@@ -1,12 +1,10 @@
 import { useCountUp, useReveal } from "@/hooks/use-reveal";
-
 const STATS = [
   { value: 500, suffix: "+", label: "Sefer" },
-  { value: 9, suffix: "", label: "Ülke" },
+  { value: 12, suffix: "", label: "Ülke" },
   { value: 15, suffix: "+", label: "Yıl Deneyim" },
   { value: 99, suffix: "%", label: "Müşteri Memnuniyeti" },
 ];
-
 function Stat({ value, suffix, label }: (typeof STATS)[number]) {
   const ref = useCountUp(value);
   return (
@@ -21,7 +19,6 @@ function Stat({ value, suffix, label }: (typeof STATS)[number]) {
     </div>
   );
 }
-
 export function Stats() {
   const ref = useReveal();
   return (
