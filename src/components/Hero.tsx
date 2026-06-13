@@ -27,14 +27,14 @@ export function Hero() {
             12 ülkeye güvenli ve hızlı teslimat. 15+ yıllık tecrübemizle, yükünüzü zamanında ve eksiksiz teslim ediyoruz.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
-            
+            <a
               href="#quote"
               className="group inline-flex items-center gap-2 h-14 px-7 rounded-full gradient-brand text-white font-semibold shadow-[var(--shadow-glow)] hover:shadow-2xl transition-all hover:-translate-y-0.5"
             >
               Teklif Al
               <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </a>
-            
+            <a
               href="https://wa.me/905414338872"
               target="_blank"
               rel="noopener noreferrer"
@@ -44,6 +44,8 @@ export function Hero() {
               WhatsApp
             </a>
           </div>
+        </div>
+        
         </div>
       
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-xs uppercase tracking-widest text-muted-foreground hidden md:block">
